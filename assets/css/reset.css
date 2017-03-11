@@ -1,0 +1,159 @@
+@font-face {
+  font-family: sf-ui-display-black;
+  src: url(../fonts/sf-ui/SF-UI-Display-Black.otf); }
+@font-face {
+  font-family: sf-ui-display-bold;
+  src: url(../fonts/sf-ui/SF-UI-Display-Bold.otf); }
+@font-face {
+  font-family: sf-ui-display-heavy;
+  src: url(../fonts/sf-ui/SF-UI-Display-Heavy.otf); }
+@font-face {
+  font-family: sf-ui-display-light;
+  src: url(../fonts/sf-ui/SF-UI-Display-Light.otf); }
+@font-face {
+  font-family: sf-ui-display-medium;
+  src: url(../fonts/sf-ui/SF-UI-Display-Medium.otf); }
+@font-face {
+  font-family: sf-ui-display-regular;
+  src: url(../fonts/sf-ui/SF-UI-Display-Regular.otf); }
+@font-face {
+  font-family: sf-ui-display-semibold;
+  src: url(../fonts/sf-ui/SF-UI-Display-Semibold.otf); }
+@font-face {
+  font-family: sf-ui-display-thin;
+  src: url(../fonts/sf-ui/SF-UI-Display-Thin.otf); }
+@font-face {
+  font-family: sf-ui-display-ultralight;
+  src: url(../fonts/sf-ui/SF-UI-Display-Ultralight.otf); }
+@font-face {
+  font-family: sf-ui-text-bold;
+  src: url(../fonts/sf-ui/SF-UI-Text-Bold.otf); }
+@font-face {
+  font-family: sf-ui-text-bolditalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-BoldItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-heavy;
+  src: url(../fonts/sf-ui/SF-UI-Text-Heavy.otf); }
+@font-face {
+  font-family: sf-ui-text-heavyitalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-HeavyItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-light;
+  src: url(../fonts/sf-ui/SF-UI-Text-Light.otf); }
+@font-face {
+  font-family: sf-ui-text-lightitalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-LightItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-medium;
+  src: url(../fonts/sf-ui/SF-UI-Text-Medium.otf); }
+@font-face {
+  font-family: sf-ui-text-mediumitalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-MediumItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-regular;
+  src: url(../fonts/sf-ui/SF-UI-Text-Regular.otf); }
+@font-face {
+  font-family: sf-ui-text-regularitalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-RegularItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-semibold;
+  src: url(../fonts/sf-ui/SF-UI-Text-Semibold.otf); }
+@font-face {
+  font-family: sf-ui-text-semibolditalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-SemiboldItalic.otf); }
+body {
+  font-family: sf-ui-text-regular;
+  background: #fff;
+  font-size: 100%;
+  overflow-x: hidden; }
+
+a {
+  -webkit-transition: all .65s ease-in;
+  -moz-transition: all .65s ease-in;
+  transition: all .65s ease-in;
+  color: #111111; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #dd114a; }
+
+h2 {
+  color: #dd114a;
+  font-size: 40px;
+  line-height: 1;
+  font-family: sf-ui-display-bold; }
+
+h3 {
+  font-family: sf-ui-text-heavy;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #111111;
+  text-transform: capitalize; }
+
+hr {
+  border-top: 2px solid #f5f5f5; }
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.no-padding.pl-15 {
+  padding-left: 15px; }
+
+.no-padding.pr-15 {
+  padding-right: 15px; }
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 18px;
+    line-height: 21px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  h3 {
+    font-size: 16px;
+    line-height: 19px; } }
+@media (max-width: 576px) {
+  h2 {
+    font-size: 20px; }
+
+  .section-heading {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f5f5f5; } }
+.author-entry {
+  color: #a6a6a6;
+  font-size: 11px;
+  line-height: 14px; }
+  .author-entry a {
+    color: #a6a6a6;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase; }
+    .author-entry a:hover {
+      color: #dd114a; }
+
+.author-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-bottom: 20px; }
+  .author-thumb span i {
+    font-size: 40px;
+    color: #1da0f1; }
+
+.section-heading {
+  margin-bottom: 20px; }
+
+.featured-section-post .post-area {
+  border: 0;
+  top: 40px;
+  left: 15px;
+  height: 100%;
+  overflow: hidden; }
+  .featured-section-post .post-area h3 {
+    max-width: 100%;
+    margin-bottom: 10px; }
+.featured-section-post .author-entry {
+  position: absolute;
+  bottom: 60px; }
+
+/*# sourceMappingURL=reset.css.map */

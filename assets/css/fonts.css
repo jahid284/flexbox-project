@@ -1,0 +1,65 @@
+@font-face {
+  font-family: sf-ui-display-black;
+  src: url(../fonts/sf-ui/SF-UI-Display-Black.otf); }
+@font-face {
+  font-family: sf-ui-display-bold;
+  src: url(../fonts/sf-ui/SF-UI-Display-Bold.otf); }
+@font-face {
+  font-family: sf-ui-display-heavy;
+  src: url(../fonts/sf-ui/SF-UI-Display-Heavy.otf); }
+@font-face {
+  font-family: sf-ui-display-light;
+  src: url(../fonts/sf-ui/SF-UI-Display-Light.otf); }
+@font-face {
+  font-family: sf-ui-display-medium;
+  src: url(../fonts/sf-ui/SF-UI-Display-Medium.otf); }
+@font-face {
+  font-family: sf-ui-display-regular;
+  src: url(../fonts/sf-ui/SF-UI-Display-Regular.otf); }
+@font-face {
+  font-family: sf-ui-display-semibold;
+  src: url(../fonts/sf-ui/SF-UI-Display-Semibold.otf); }
+@font-face {
+  font-family: sf-ui-display-thin;
+  src: url(../fonts/sf-ui/SF-UI-Display-Thin.otf); }
+@font-face {
+  font-family: sf-ui-display-ultralight;
+  src: url(../fonts/sf-ui/SF-UI-Display-Ultralight.otf); }
+@font-face {
+  font-family: sf-ui-text-bold;
+  src: url(../fonts/sf-ui/SF-UI-Text-Bold.otf); }
+@font-face {
+  font-family: sf-ui-text-bolditalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-BoldItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-heavy;
+  src: url(../fonts/sf-ui/SF-UI-Text-Heavy.otf); }
+@font-face {
+  font-family: sf-ui-text-heavyitalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-HeavyItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-light;
+  src: url(../fonts/sf-ui/SF-UI-Text-Light.otf); }
+@font-face {
+  font-family: sf-ui-text-lightitalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-LightItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-medium;
+  src: url(../fonts/sf-ui/SF-UI-Text-Medium.otf); }
+@font-face {
+  font-family: sf-ui-text-mediumitalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-MediumItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-regular;
+  src: url(../fonts/sf-ui/SF-UI-Text-Regular.otf); }
+@font-face {
+  font-family: sf-ui-text-regularitalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-RegularItalic.otf); }
+@font-face {
+  font-family: sf-ui-text-semibold;
+  src: url(../fonts/sf-ui/SF-UI-Text-Semibold.otf); }
+@font-face {
+  font-family: sf-ui-text-semibolditalic;
+  src: url(../fonts/sf-ui/SF-UI-Text-SemiboldItalic.otf); }
+
+/*# sourceMappingURL=fonts.css.map */

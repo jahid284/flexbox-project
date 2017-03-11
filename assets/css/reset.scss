@@ -1,0 +1,113 @@
+@import 'fonts.scss';
+@import 'varriable.scss';
+body {
+	font-family: $st-regular;
+	background: $white-color;
+	font-size: 100%;
+	overflow-x: hidden;
+}
+a {
+	-webkit-transition: all .65s ease-in;
+	-moz-transition: all .65s ease-in;
+	transition: all .65s ease-in;
+	color: $link-color;
+	&:hover , &:focus{
+		text-decoration: none;
+		color: $hover-color;
+	}
+}
+h2 {
+	color: $hover-color;
+	font-size: 40px;
+	line-height: 1;
+	font-family: $sd-bold;
+}
+h3{
+	font-family: $st-heavy;
+	font-size: 24px;
+	line-height: 26px;
+	letter-spacing: 0.1px;
+	color: $link-color;
+	text-transform: capitalize;
+}
+hr {
+	border-top: 2px solid $border-color;
+}
+.no-padding {padding-left: 0; padding-right:0}
+.no-padding.pl-15{padding-left: 15px}
+.no-padding.pr-15{padding-right: 15px}
+
+
+
+@media(max-width: 767px){
+	h3 {
+		font-size: 18px;
+		line-height: 21px;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	h3 {
+		font-size: 16px;
+		line-height: 19px;
+	}
+}
+
+@media(max-width: 576px){
+	h2 {
+		font-size: 20px;
+	}
+	.section-heading {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 2px solid $border-color;
+	}
+}
+
+.author-entry {
+	color: darken($white-color, 35%);
+	font-size: 11px;
+	line-height: 14px;
+	a {
+		color: darken($white-color, 35%);
+		font-size: 11px;
+		line-height: 14px;
+		text-transform: uppercase;
+		&:hover {
+			color: $hover-color;
+		}
+	}
+}
+.author-thumb {
+	width: 40px;
+	height: 40px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	span {
+		i {
+			font-size: 40px;
+			color: $twt-color;
+		}
+	}
+}
+.section-heading {
+	margin-bottom: 20px;
+}
+
+.featured-section-post {
+				.post-area {
+					border: 0;
+					top: 40px;
+					left: 15px;
+					height: 100%;
+					overflow: hidden;
+					h3 {
+						max-width: 100%;
+						margin-bottom: 10px;
+					}
+				}
+				.author-entry {
+					position: absolute;
+					bottom: 60px;
+				}
+			}
+
